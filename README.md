@@ -1,6 +1,6 @@
-# User Defined String Length Error
+# Custom String Length Exception Example
 
-This Java program introduces a user-defined error for input strings with more than 8 characters. The custom error, `StringLengthException`, is thrown when the user attempts to input a string exceeding the specified length.
+This Java program demonstrates the use of a custom exception, `MyException`, to handle cases where the user inputs a string with more than 8 characters.
 
 ## Instructions
 
@@ -10,8 +10,8 @@ This Java program introduces a user-defined error for input strings with more th
 ## Usage
 
 1. Input a string when prompted.
-2. If the entered string has more than 8 characters, the program throws a `StringLengthException` and provides an error message.
-3. If the string is within the specified length, the program proceeds without errors.
+2. If the entered string has more than 8 characters, the program throws a `MyException` and provides an error message.
+3. If the string is within the specified length, the program prints the entered string.
 
 ## How to Run
 
